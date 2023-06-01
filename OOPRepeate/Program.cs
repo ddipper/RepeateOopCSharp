@@ -1,4 +1,101 @@
-﻿int x = 7;
+﻿Person<string> person1 = new Person<string>("34");
+Person<int> person2 = new Person<int>(45);
+UniversalPerson<int> person3 = new UniversalPerson<int>(33);
+
+Console.WriteLine(person1.Id);
+Console.WriteLine(person2.Id);
+Console.WriteLine(person3.Id);
+
+class Person<T>
+{
+    public T Id { get; }
+
+    public Person(T id)
+    {
+        Id = id;
+    }
+}
+
+class UniversalPerson<T> : Person<T>
+{
+    public UniversalPerson(T id) : base(id) { }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Messenger<Message> telegram = new Messenger<Message>();
+telegram.SendMessage(new Message("Hello tg world"));
+Messenger<EmailMessage> outlook = new Messenger<EmailMessage>();
+outlook.SendMessage(new EmailMessage("Hello outlook world"));
+
+class Messenger<T> where T : Message
+{
+    public void SendMessage(T message)
+    {
+        Console.WriteLine($"Send message: {message.Text}");
+    }
+}
+
+class Message
+{
+    public string Text { get; }
+
+    public Message(string text)
+    {
+        Text = text;
+    }
+}
+
+class EmailMessage : Message
+{
+    public EmailMessage(string text) : base(text) { }
+}*/
+
+
+
+/*SendMessage<Message>(new Message("Hello world!"));
+SendMessage<EmailMessage>(new EmailMessage("Hello email world"));
+
+void SendMessage<T>(T message) where T: Message
+{
+    Console.WriteLine($"Send message: {message.Text}");
+}
+
+class Message
+{
+    public string Text { get; }
+
+    public Message(string text)
+    {
+        Text = text;
+    }
+}
+
+class EmailMessage : Message
+{
+    public EmailMessage(string text) : base(text) { }
+}
+
+class SmsMessage : Message
+{
+    public SmsMessage(string text) : base(text) { }
+}*/
+
+
+
+/*int x = 7;
 int y = 12;
 
 string str1 = "Hello";
@@ -14,11 +111,11 @@ void Swap<T>(ref T x, ref T y)
     T temp = x;
     x = y;
     y = temp;
-}
+}*/
 
 
 
-Person<int, string> bob = new Person<int, string>(12, "qwerty123", "Bob");
+/*Person<int, string> bob = new Person<int, string>(12, "qwerty123", "Bob");
 Console.WriteLine($"Id: {bob.Id}, Name: {bob.Name}, Password: {bob.Password}");
 
 class Person<T, K>
@@ -33,7 +130,7 @@ class Person<T, K>
         Password = password;
         Name = name;
     }
-}
+}*/
 
 
 
