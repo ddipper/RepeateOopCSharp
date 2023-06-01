@@ -1,0 +1,15 @@
+D:\Prog\github\OOPRepeate\OOPRepeate\bin\Debug\net6.0\OOPRepeate.exe
+D:\Prog\github\OOPRepeate\OOPRepeate\bin\Debug\net6.0\OOPRepeate.deps.json
+D:\Prog\github\OOPRepeate\OOPRepeate\bin\Debug\net6.0\OOPRepeate.runtimeconfig.json
+D:\Prog\github\OOPRepeate\OOPRepeate\bin\Debug\net6.0\OOPRepeate.dll
+D:\Prog\github\OOPRepeate\OOPRepeate\bin\Debug\net6.0\OOPRepeate.pdb
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.csproj.AssemblyReference.cache
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.AssemblyInfoInputs.cache
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.AssemblyInfo.cs
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.csproj.CoreCompileInputs.cache
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.dll
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\refint\OOPRepeate.dll
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.pdb
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\OOPRepeate.genruntimeconfig.cache
+D:\Prog\github\OOPRepeate\OOPRepeate\obj\Debug\net6.0\ref\OOPRepeate.dll

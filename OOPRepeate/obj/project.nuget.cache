@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2H66r2Q9J1j7x0r9UUrjNKcpocWWH6Z4VUtezoDgZ9CubxNo/4qncuM/RqcYSwtV2WV71QKwWx03cnRiMFeQ5A==",
+  "success": true,
+  "projectFilePath": "D:\\Prog\\github\\OOPRepeate\\OOPRepeate\\OOPRepeate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dimon\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\dimon\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\dimon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\dimon\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
