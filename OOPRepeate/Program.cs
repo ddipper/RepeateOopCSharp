@@ -1,4 +1,95 @@
-﻿Person<int> tom = new Person<int>(546, "Tom");
+﻿int x = 7;
+int y = 12;
+
+string str1 = "Hello";
+string str2 = "World";
+
+Swap<int>(ref x, ref y);
+Console.WriteLine($"x: {x}, y: {y}");
+Swap<string>(ref str1, ref str2);
+Console.WriteLine($"str1: {str1}, str2: {str2}");
+
+void Swap<T>(ref T x, ref T y)
+{
+    T temp = x;
+    x = y;
+    y = temp;
+}
+
+
+
+Person<int, string> bob = new Person<int, string>(12, "qwerty123", "Bob");
+Console.WriteLine($"Id: {bob.Id}, Name: {bob.Name}, Password: {bob.Password}");
+
+class Person<T, K>
+{
+    public T Id { get; set; }
+    public K Password { get; set; }
+    public string Name { get; }
+
+    public Person(T id, K password, string name)
+    {
+        Id = id;
+        Password = password;
+        Name = name;
+    }
+}
+
+
+
+/*Person<int> bob = new Person<int>(546, "Bob");
+Person<int>.code = 1234;
+
+Person<string> tom = new Person<string>("abcId", "Tom");
+Person<string>.code = "meta";
+
+Console.WriteLine(Person<int>.code);
+Console.WriteLine(Person<string>.code);
+
+class Person<T>
+{
+    public static T? code;
+    public T Id { get; set; }
+    public string Name { get; set; }
+
+    public Person(T id, string name)
+    {
+        Id = id;
+        Name = name;
+    }
+}*/
+
+
+
+/*Person<int> bob = new Person<int>(1052, "Bob");
+Company<Person<int>> microsoft = new Company<Person<int>>(bob);
+
+Console.WriteLine(microsoft.CEO.Id);
+Console.WriteLine(microsoft.CEO.Name);
+class Company<P>
+{
+    public P CEO { get; set; }
+
+    public Company(P ceo)
+    {
+        CEO = ceo;
+    }
+}
+
+class Person<T>
+{
+    public T Id { get; }
+    public string Name { get; }
+    public Person(T id, string name)
+    {
+        Id = id;
+        Name = name;
+    }
+}*/
+
+
+
+/*Person<int> tom = new Person<int>(546, "Tom");
 Person<string> sam = new Person<string>("abc123", "Sam");
 int tomId = tom.Id; //распаковка не нужна
 string samId = sam.Id; //проебразование типов не требуется
@@ -16,36 +107,7 @@ class Person<T> //обобщенный класс
         Id = id;
         Name = name;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}*/
 
 
 
